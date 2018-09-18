@@ -6,15 +6,15 @@
   $hourNow = date("G");
   $partOfDay = "";
   if ($hourNow >= 7 and $hourNow < 8){
-	  $partOfDay = "varajane Hommik.";
+	  $partOfDay = "varajane hommik.";
   }
   if ($hourNow >= 8 and $hourNow < 16){
 	  $partOfDay = "kooliaeg.";
   }
-  if ($hourNow >= 16 and $hourNow <= 23){
+  if ($hourNow >= 16 and $hourNow < 22){
 	  $partOfDay = "vabaaeg.";
   }
-  if ($hourNow > 23 and $hourNow <= 7){
+  if ($hourNow >= 22 and $hourNow < 7){
 	  $partOfDay = "magamise aeg.";
   }
   
