@@ -56,10 +56,10 @@
 	<label>Minu valitud taustavärv: </label><input name="bgcolor" type="color" value="<?php echo $mybgcolor; ?>">
 	<br>
 	<label>Minu valitud tekstivärv: </label><input name="txtcolor" type="color" value="<?php echo $mytxtcolor; ?>">
-	<hr>
+	<br>
 	<input type="submit" name="submitProfile" value="Salvesta profiil">
-	<hr>
 	</form>
 	<?php echo $notice; ?>
-  </body>
-</html>
+
+	
+<?php require("footer.php"); ?>
